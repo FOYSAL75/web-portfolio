@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -17,4 +18,41 @@ h1{
 .half-width img{
     width: 100%;
 
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, rgb(230, 129, 89), rgb(248, 58, 25),rgb(247, 6, 6));
+    border: solid none 1px ;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+}
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-exprience{
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.exprience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:top left;
+}
+footer{
+    text-align: center;
 }
